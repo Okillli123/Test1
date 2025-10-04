@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Your Website</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f9f9f9; color: #222; }
+    .navbar { background: #333; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    .navbar a { color: #fff; text-decoration: none; margin-left: 2rem; }
+    .navbar a:hover { text-decoration: underline; }
+    .container { max-width: 900px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .hero { text-align: center; margin-bottom: 2rem; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; color: #555; }
+    section { margin: 2rem 0; }
+    section h2 { color: #333; margin-bottom: 1rem; }
+    .features-list { list-style: none; padding: 0; }
+    .features-list li { background: #f0f0f0; margin: 0.5rem 0; padding: 0.75rem 1rem; border-radius: 5px; }
+    @media (max-width: 600px) {
+      .container { padding: 1rem; }
+      .navbar { flex-direction: column; align-items: flex-start; }
+      .navbar a { margin: 0.5rem 0 0 0; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div><strong>YourWebsite</strong></div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="hero">
+      <h1>Welcome to YourWebsite!</h1>
+      <p>Your modern homepage, built to impress and easy to customize.</p>
+    </div>
+    <section id="about">
+      <h2>About</h2>
+      <p>This is a simple homepage template using HTML and CSS. You can easily update the content and style to fit your needs, or extend it with frameworks like React or Vue later.</p>
+    </section>
+    <section id="features">
+      <h2>Features</h2>
+      <ul class="features-list">
+        <li>Clean, modern design</li>
+        <li>Responsive layout for all devices</li>
+        <li>Easy to customize and extend</li>
+        <li>Fast loading</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Have questions or feedback? <a href="mailto:your@email.com">Email us</a>!</p>
+    </section>
+  </div>
+</body>
+</html>
